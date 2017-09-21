@@ -1,7 +1,7 @@
 <template>
-    <v-app light>
+    <v-app dark>
         <!-- navigation here-->
-        <v-toolbar flat id="navigation">
+        <v-toolbar flat dense id="navigation">
             <v-toolbar-title>Pourhouse Cafe</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-toolbar-side-icon class="hidden-md-and-up"></v-toolbar-side-icon>
@@ -12,11 +12,9 @@
             </v-toolbar-items>
         </v-toolbar>
         <!-- main page content (varies) -->
-        <main>
-            <v-container fluid>
+        <!--<main>-->
                 <router-view></router-view>
-            </v-container>
-        </main>
+        <!--</main>-->
         <v-footer>Pourhouse Cafe</v-footer>
     </v-app>
 </template>
