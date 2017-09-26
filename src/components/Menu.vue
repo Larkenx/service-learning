@@ -1,5 +1,5 @@
 <template>
-    <p>Menu Page</p>
+    <img class="bg" src="src/assets/menu.jpg"/>
 </template>
 
 <script>

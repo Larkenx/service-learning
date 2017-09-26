@@ -2,7 +2,7 @@
     <v-app dark>
         <!-- navigation here-->
         <v-toolbar flat dense id="navigation">
-            <v-toolbar-title>Pourhouse Cafe</v-toolbar-title>
+            <v-toolbar-title class="display-1">The Pourhouse Cafe</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-toolbar-side-icon class="hidden-md-and-up"></v-toolbar-side-icon>
             <v-toolbar-items class="hidden-sm-and-down">
@@ -12,9 +12,9 @@
             </v-toolbar-items>
         </v-toolbar>
         <!-- main page content (varies) -->
-        <!--<main>-->
-                <router-view></router-view>
-        <!--</main>-->
+        <main class="clip-top">
+            <router-view></router-view>
+        </main>
         <v-footer>Pourhouse Cafe</v-footer>
     </v-app>
 </template>
@@ -25,3 +25,4 @@
         }
     }
 </script>
+

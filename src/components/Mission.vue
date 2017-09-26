@@ -1,5 +1,5 @@
 <template>
-    <p>Our mission!</p>
+    <img class="bg" src="src/assets/mission.jpg"/>
 </template>
 
 <script>

@@ -1,12 +1,5 @@
 <template>
-        <!--  Opening Parallax Section -->
-        <!--<v-card flat style="top: -50px;">-->
-            <!--<v-card-media src="src/assets/DSC_0040.jpeg" height="1000px"></v-card-media>-->
-        <!--</v-card>-->
-        <v-carousel hide-controls>
-            <v-carousel-item v-for="(pic, i) in carouselPictures" key="i" :src="pic">
-            </v-carousel-item>
-        </v-carousel>
+    <img class="bg" src="src/assets/coffee.jpg"/>
 </template>
 
 <script>
@@ -26,7 +19,7 @@
         },
         methods: {},
     }
-
 </script>
-<style>
+<style lang="stylus">
+
 </style>
