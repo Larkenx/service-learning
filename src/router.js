@@ -33,7 +33,7 @@ export default new Router({
         //     redirect : '/'
         // },
     ],
-    linkActiveClass : ".selected-toolbar-item",
-    linkExactActiveClass : ".selected-toolbar-item",
+    linkActiveClass : "selected-toolbar-item",
+    // linkExactActiveClass : "selected-toolbar-item",
 })
 

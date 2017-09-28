@@ -1,5 +1,5 @@
 <template>
-    <img class="bg" src="src/assets/mission.jpg"/>
+    <img class="bg" src="public/mission.jpg"/>
 </template>
 
 <script>
