@@ -1,45 +1,133 @@
 <template>
     <!-- Introduction section -->
-    <div>
-        <v-card-media  src="public/coffee.jpg" height="800px">
-            <v-container fill-height fluid style="margin-top: 50px;">
-                <v-layout>
-                    <v-flex xs4 align-end flexbox class="text-xs-left">
-                        <span class="display-4 white--text">Coffee that makes a difference.</span>
-                    </v-flex>
+    <main>
+        <section>
+            <v-parallax src="public/cover.jpg" height="600">
+                <v-layout column
+                          align-center
+                          justify-center
+                          class="white--text">
+                    <p class="display-3">COFFEE AND KINDNESS</p>
+                    <p class="subheading" style="text-align: center; width: 300px;">
+                        <i>
+                            Our friendly coffee shop donates all tips to good causes.
+                            Come have a cup of coffee and donate to a good cause!
+                        </i>
+                    </p>
+                    <v-btn class="white--text" style="width: 50px; letter-spacing: 1px" outline to="/donate" exact>
+                        Learn more
+                    </v-btn>
                 </v-layout>
-            </v-container>
-        </v-card-media>
-        <!-- About us -->
+            </v-parallax>
+        </section>
+        <torn-border location="top"></torn-border>
+        <section>
+            <v-layout
+                    column
+                    wrap
+                    align-center
+            >
+                <v-flex xs12 sm4>
+                    <div >
+                        <h2 class="">Clever Title</h2>
+                    </div>
+                </v-flex>
+                <v-flex xs12>
+                    <v-container grid-list-xl>
+                        <v-layout row wrap align-top>
 
-        <torn-border></torn-border>
-        <div id="torn-image-border">
-            <h5 class="text-xs-center display" style="color: #bd6f00; font-style: italic; font-weight: 100;">
-                Why should you visit us?
-            </h5>
-            <v-container grid-list-xl>
-                <v-layout row wrap>
-                    <v-flex xs4 v-for="n in 3" :key="n">
-                        <v-card>
-                            <v-card-media>
+                            <v-flex xs12 md4>
+                                <v-card class="elevation-0 transparent">
+                                    <v-card-media src="public/cover2.jpg" height="300px">
+                                    </v-card-media>
+                                    <v-card-title primary-title class="layout justify-center">
+                                        <div class="headline text-xs-center">
+                                            A cozy, quiet environment
+                                        </div>
+                                    </v-card-title>
+                                    <v-card-text>
+                                        <!-- start slipsum code -->
 
-                            </v-card-media>
-                            <v-card-text>
-                                Some text
-                            </v-card-text>
-                        </v-card>
-                    </v-flex>
+                                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
+
+                                        <!-- end slipsum code -->
+                                    </v-card-text>
+                                </v-card>
+                            </v-flex>
+
+                            <v-flex xs12 md4>
+                                <v-card class="elevation-0 transparent">
+                                    <v-card-media src="public/coffee.jpg" height="300px">
+                                    </v-card-media>
+                                    <v-card-title primary-title class="layout justify-center">
+                                        <div class="headline text-xs-center">
+                                            Delicious coffee
+                                        </div>
+                                    </v-card-title>
+                                    <v-card-text>
+                                        <!-- start slipsum code -->
+
+                                        The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.
+
+                                        <!-- end slipsum code -->
+                                    </v-card-text>
+                                </v-card>
+                            </v-flex>
+                            <v-flex xs12 md4>
+                                <v-card class="elevation-0 transparent">
+                                    <v-card-media src="public/cover4.jpg" height="300px">
+                                    </v-card-media>
+                                    <v-card-title primary-title class="layout justify-center">
+                                        <div class="headline text-xs-center">
+                                            For a good cause
+                                        </div>
+                                    </v-card-title>
+                                    <v-card-text>
+                                        <!-- start slipsum code -->
+
+                                        You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic.
+
+                                        <!-- end slipsum code -->
+                                    </v-card-text>
+                                </v-card>
+                            </v-flex>
+                        </v-layout>
+                    </v-container>
+                </v-flex>
+            </v-layout>
+        </section>
+        <torn-border location="bottom"></torn-border>
+        <section>
+            <v-parallax src="public/cover.jpg" height="600">
+                <v-layout column
+                          align-center
+                          justify-center
+                          class="white--text">
+                    <p class="display-3">COFFEE AND KINDNESS</p>
+                    <p class="subheading" style="text-align: center; width: 300px;">
+                        <i>
+                            Our friendly coffee shop donates all tips to good causes.
+                            Come have a cup of coffee and donate to a good cause!
+                        </i>
+                    </p>
+                    <v-btn class="white--text" style="width: 50px; letter-spacing: 1px" outline to="/donate" exact>
+                        Learn more
+                    </v-btn>
                 </v-layout>
-            </v-container>
-        </div>
-    </div>
+            </v-parallax>
+        </section>
+
+
+    </main>
 </template>
 
 <script>
     import TornBorder from './TornBorder.vue'
+    import VParallax from "../../node_modules/vuetify/src/components/VParallax/VParallax";
     /* import other components here */
     export default {
         components: {
+            VParallax,
             TornBorder
         },
         data() {
