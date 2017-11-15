@@ -271,23 +271,23 @@
 
 </script>
 <style lang="css">
-    svg {
+    .top-torn-border {
+        margin-top: -27px;
         width: 100%;
         height: 27px;
         position: absolute;
         z-index: 2;
         display: block;
-    }
-
-    svg:not(:root), symbol, image, marker, pattern, foreignObject {
         overflow: hidden;
-    }
-
-    .top-torn-border {
-        margin-top: -27px;
     }
 	.bottom-torn-border {
 		margin-bottom: -27px;
         transform: rotate(180deg);
+        overflow: hidden;
+        width: 100%;
+        height: 27px;
+        position: absolute;
+        z-index: 2;
+        display: block;
 	}
 </style>
