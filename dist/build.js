@@ -28848,8 +28848,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('v-flex', {
     attrs: {
-      "xs12": "",
-      "sm4": ""
+      "xs12": ""
     }
   }, [_c('div', [_c('h3', {
     staticClass: "coffee--text"

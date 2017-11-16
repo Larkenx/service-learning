@@ -26,7 +26,7 @@
                     wrap
                     align-center
             >
-                <v-flex xs12 sm4>
+                <v-flex xs12>
                     <div>
                         <h3 class="coffee--text">Coffee on Kirkwood</h3>
                     </div>
