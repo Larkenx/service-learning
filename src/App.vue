@@ -10,8 +10,6 @@
                 <v-btn flat class="" to="/" exact>Home</v-btn>
                 <v-btn flat class="" to="/mission" exact>Our Mission</v-btn>
                 <v-btn flat class="" to="/menu" exact>Menu</v-btn>
-                <v-btn flat success class="" to="/donate" exact>Donate</v-btn>
-
             </v-toolbar-items>
         </v-toolbar>
         <!-- main page content (varies) -->
@@ -29,4 +27,3 @@
         }
     }
 </script>
-

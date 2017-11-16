@@ -9,13 +9,11 @@
                           class="white--text parallax-text">
                     <p class="display-3">COFFEE AND KINDNESS</p>
                     <p class="subheading" style="text-align: center; width: 300px;">
-                        <i>
                             Our friendly coffee shop donates all tips to good causes.
                             Come have a cup of coffee and donate to a good cause!
-                        </i>
                     </p>
                     <v-btn class="white--text" style="width: 150px; letter-spacing: 1px" outline
-                           to="/donate" exact>
+                           to="/mission" exact>
                         Learn more
                     </v-btn>
                 </v-layout>
@@ -47,11 +45,7 @@
                                         </div>
                                     </v-card-title>
                                     <v-card-text>
-                                        <!-- start slipsum code -->
-
-                                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
-
-                                        <!-- end slipsum code -->
+                                        Downtown Bloomington can be an exciting but loud and busy place. The Pourhouse Cafe is a great place to come in and get away from the noise with a relaxing cup of coffee. Feel free to sit down and hang out with friends or do some reading and homework.
                                     </v-card-text>
                                 </v-card>
                             </v-flex>
@@ -66,11 +60,7 @@
                                         </div>
                                     </v-card-title>
                                     <v-card-text>
-                                        <!-- start slipsum code -->
-
-                                        The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.
-
-                                        <!-- end slipsum code -->
+                                        All of our coffee is fair traded and locally roasted. We've got everything from an iced americano to a hot turtle mocha latte. We also have a variety of coffee-less drinks like a Chai Tea Latte and an Italian soda.
                                     </v-card-text>
                                 </v-card>
                             </v-flex>
@@ -84,11 +74,7 @@
                                         </div>
                                     </v-card-title>
                                     <v-card-text>
-                                        <!-- start slipsum code -->
-
-                                        You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic.
-
-                                        <!-- end slipsum code -->
+                                        The best part of our business is that we donate all of our tips to charity. Any time you have a coffee with us and leave a tip, you're making a difference locally and around the world with many of our different missions.
                                     </v-card-text>
                                 </v-card>
                             </v-flex>
