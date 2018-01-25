@@ -4,6 +4,7 @@
         <v-navigation-drawer
          right
          fixed
+         app
          class="hidden-md-and-up"
          v-model="drawer"
        >

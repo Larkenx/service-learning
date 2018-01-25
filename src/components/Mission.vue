@@ -1,7 +1,7 @@
 <template>
     <main>
         <section>
-            <v-parallax src="public/mission2.jpg" height="700">
+            <v-parallax src="public/mission2.jpg.png" height="700">
                 <v-container fluid class="white--text parallax-text text-xs-center">
                   <v-layout row class="text-xs-center">
                       <v-container>
@@ -105,7 +105,7 @@
         </section>
         <torn-border location="bottom"></torn-border>
         <section>
-            <v-parallax src="public/cover4.jpg" height="600">
+            <v-parallax src="public/cover4.jpg.png" height="600">
                 <v-layout column
                           align-center
                           justify-center
@@ -124,35 +124,34 @@
 </template>
 
 <script>
-    /* import other components here */
-    import TornBorder from './TornBorder.vue'
-    import IOdometer from "../../node_modules/vue-odometer/src/iOdometer";
-    export default {
-        components: {
-            IOdometer,
-            TornBorder
-        },
-        data() {
-            return {
-                donated : 0
-            };
-        },
-        methods: {},
-        created () {
-        },
-        mounted () {
-            setInterval(() => {
-                this.donated += Math.round(Math.random() * 20 + 2);
-            }, 3000)
-            setTimeout(() => {
-                this.donated += 250
-            })
-        }
-    }
+/* import other components here */
+import TornBorder from './TornBorder.vue';
+import IOdometer from '../../node_modules/vue-odometer/src/iOdometer';
+export default {
+  components: {
+    IOdometer,
+    TornBorder
+  },
+  data() {
+    return {
+      donated: 0
+    };
+  },
+  methods: {},
+  created() {},
+  mounted() {
+    setInterval(() => {
+      this.donated += Math.round(Math.random() * 20 + 2);
+    }, 3000);
+    setTimeout(() => {
+      this.donated += 250;
+    });
+  }
+};
 </script>
 <style>
-    .iOdemeter {
-        text-align: center;
-        font-size: 120px;
-    }
+.iOdemeter {
+  text-align: center;
+  font-size: 120px;
+}
 </style>
