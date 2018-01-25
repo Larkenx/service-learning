@@ -26701,11 +26701,36 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    data() {
-        return {};
-    }
+  data() {
+    return {
+      drawer: false
+    };
+  }
 });
 
 /***/ }),
@@ -26852,47 +26877,47 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /* import other components here */
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: {
-        TornBorder: __WEBPACK_IMPORTED_MODULE_0__TornBorder_vue___default.a
-    },
-    data() {
-        return {
-            toggle_exclusive: null,
-            coffeeItems: [{
-                name: "Americano",
-                price: 2.55
-            }, {
-                name: "Latte",
-                price: 3.75
-            }, {
-                name: "Macchiato",
-                price: 4.20
-            }, {
-                name: "Cafe Miel",
-                price: 4.20
-            }, {
-                name: "Cappucino",
-                price: 3.75
-            }],
-            noncoffeeItems: [{
-                name: "Hot Chocolate",
-                price: 2.55
-            }, {
-                name: "Italian Soda",
-                price: 3.75
-            }, {
-                name: "Steamer",
-                price: 4.20
-            }, {
-                name: "Chai Latte",
-                price: 4.20
-            }, {
-                name: "Iced Tea",
-                price: 3.75
-            }]
-        };
-    },
-    methods: {}
+  components: {
+    TornBorder: __WEBPACK_IMPORTED_MODULE_0__TornBorder_vue___default.a
+  },
+  data() {
+    return {
+      toggle_exclusive: null,
+      coffeeItems: [{
+        name: 'Americano',
+        price: 2.55
+      }, {
+        name: 'Latte',
+        price: 3.75
+      }, {
+        name: 'Macchiato',
+        price: 4.2
+      }, {
+        name: 'Cafe Miel',
+        price: 4.2
+      }, {
+        name: 'Cappucino',
+        price: 3.75
+      }],
+      noncoffeeItems: [{
+        name: 'Hot Chocolate',
+        price: 2.55
+      }, {
+        name: 'Italian Soda',
+        price: 3.75
+      }, {
+        name: 'Steamer',
+        price: 4.2
+      }, {
+        name: 'Chai Latte',
+        price: 4.2
+      }, {
+        name: 'Iced Tea',
+        price: 3.75
+      }]
+    };
+  },
+  methods: {}
 });
 
 /***/ }),
@@ -27456,15 +27481,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /* import other components here */
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: {
-        TornBorder: __WEBPACK_IMPORTED_MODULE_0__TornBorder_vue___default.a
-    },
-    data() {
-        return {
-            carouselPictures: ["static/DSC_0040.jpeg", "static/DSC_0024.jpg", "static/DSC_0041.jpg"]
-        };
-    },
-    methods: {}
+  components: {
+    TornBorder: __WEBPACK_IMPORTED_MODULE_0__TornBorder_vue___default.a
+  },
+  data() {
+    return {
+      carouselPictures: ['static/DSC_0040.jpeg', 'static/DSC_0024.jpg', 'static/DSC_0041.jpg']
+    };
+  },
+  methods: {}
 });
 
 /***/ }),
@@ -28814,11 +28839,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "justify-center": ""
     }
   }, [_c('p', {
-    staticClass: "display-3"
+    staticClass: "display-3 text-xs-center"
   }, [_vm._v("COFFEE AND KINDNESS")]), _vm._v(" "), _c('p', {
-    staticClass: "subheading",
+    staticClass: "subheading text-xs-center",
     staticStyle: {
-      "text-align": "center",
       "width": "300px"
     }
   }, [_vm._v("\n                        Our friendly coffee shop donates all tips to good causes.\n                        Come have a cup of coffee and donate to a good cause!\n                ")]), _vm._v(" "), _c('v-btn', {
@@ -28980,14 +29004,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "justify-center": ""
     }
   }, [_c('p', {
-    staticClass: "display-4"
+    staticClass: "display-4 text-xs-center"
   }, [_vm._v("What's on the menu?")]), _vm._v(" "), _c('p', {
-    staticClass: "display-1",
+    staticClass: "display-1 text-xs-center",
     staticStyle: {
       "max-width": "600px"
     }
   }, [_vm._v("\n                        We've got something for everyone. An iced latte to cool you down in the summer time, or a hot cappucino to keep you warm in the fall.\n                    ")]), _vm._v(" "), _c('v-btn', {
-    staticClass: "white--text",
+    staticClass: "white--text text-xs-center",
     staticStyle: {
       "width": "150px",
       "letter-spacing": "1px"
@@ -29204,18 +29228,75 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('v-app', {
     attrs: {
+      "app": "",
       "light": ""
     }
-  }, [_c('v-toolbar', {
+  }, [_c('v-navigation-drawer', {
+    staticClass: "hidden-md-and-up",
     attrs: {
+      "right": "",
+      "fixed": ""
+    },
+    model: {
+      value: (_vm.drawer),
+      callback: function($$v) {
+        _vm.drawer = $$v
+      },
+      expression: "drawer"
+    }
+  }, [_c('v-list', [_c('v-list-tile', [_c('v-layout', {
+    attrs: {
+      "row": "",
+      "align-center": ""
+    }
+  }, [_c('v-btn', {
+    attrs: {
+      "flat": "",
+      "block": "",
+      "to": "/",
+      "exact": ""
+    }
+  }, [_vm._v("Home")])], 1)], 1), _vm._v(" "), _c('v-list-tile', [_c('v-layout', {
+    attrs: {
+      "row": "",
+      "align-center": ""
+    }
+  }, [_c('v-btn', {
+    attrs: {
+      "flat": "",
+      "block": "",
+      "to": "/mission",
+      "exact": ""
+    }
+  }, [_vm._v("Our Mission")])], 1)], 1), _vm._v(" "), _c('v-list-tile', [_c('v-layout', {
+    attrs: {
+      "row": "",
+      "align-center": ""
+    }
+  }, [_c('v-btn', {
+    attrs: {
+      "flat": "",
+      "block": "",
+      "to": "/menu",
+      "exact": ""
+    }
+  }, [_vm._v("Menu")])], 1)], 1)], 1)], 1), _vm._v(" "), _c('v-toolbar', {
+    attrs: {
+      "app": "",
       "light": "",
       "fixed": "",
+      "clipped-left": "",
       "id": "navigation"
     }
-  }, [_c('v-icon'), _vm._v(" "), _c('v-toolbar-title', {
-    staticClass: "display-2"
+  }, [_c('v-toolbar-title', {
+    staticClass: "display-1"
   }, [_vm._v("The Pourhouse Cafe")]), _vm._v(" "), _c('v-spacer'), _vm._v(" "), _c('v-toolbar-side-icon', {
-    staticClass: "hidden-md-and-up"
+    staticClass: "hidden-md-and-up",
+    on: {
+      "click": function($event) {
+        _vm.drawer = !_vm.drawer
+      }
+    }
   }), _vm._v(" "), _c('v-toolbar-items', {
     staticClass: "hidden-sm-and-down"
   }, [_c('v-btn', {
