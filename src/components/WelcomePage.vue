@@ -7,8 +7,8 @@
                           align-center
                           justify-center
                           class="white--text parallax-text">
-                    <p class="display-3">COFFEE AND KINDNESS</p>
-                    <p class="subheading" style="text-align: center; width: 300px;">
+                    <p class="display-3 text-xs-center">COFFEE AND KINDNESS</p>
+                    <p class="subheading text-xs-center" style="width: 300px;">
                             Our friendly coffee shop donates all tips to good causes.
                             Come have a cup of coffee and donate to a good cause!
                     </p>
@@ -110,17 +110,17 @@
 </template>
 
 <script>
-    import TornBorder from './TornBorder.vue'
-    /* import other components here */
-    export default {
-        components: {
-            TornBorder
-        },
-        data() {
-            return {
-                carouselPictures: ["static/DSC_0040.jpeg", "static/DSC_0024.jpg", "static/DSC_0041.jpg"]
-            };
-        },
-        methods: {},
-    }
+import TornBorder from './TornBorder.vue';
+/* import other components here */
+export default {
+  components: {
+    TornBorder
+  },
+  data() {
+    return {
+      carouselPictures: ['static/DSC_0040.jpeg', 'static/DSC_0024.jpg', 'static/DSC_0041.jpg']
+    };
+  },
+  methods: {}
+};
 </script>

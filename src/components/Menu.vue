@@ -7,11 +7,11 @@
                               justify-center
                               class="white--text parallax-text">
 
-                        <p class="display-4">What's on the menu?</p>
-                        <p class="display-1" style="max-width: 600px;">
+                        <p class="display-4 text-xs-center">What's on the menu?</p>
+                        <p class="display-1 text-xs-center" style="max-width: 600px;">
                             We've got something for everyone. An iced latte to cool you down in the summer time, or a hot cappucino to keep you warm in the fall.
                         </p>
-                        <v-btn class="white--text" style="width: 150px; letter-spacing: 1px" outline>
+                        <v-btn class="white--text text-xs-center" style="width: 150px; letter-spacing: 1px" outline>
                             Check out our menu
                         </v-btn>
                     </v-layout>
@@ -131,67 +131,66 @@
 </template>
 
 <script>
-    import TornBorder from './TornBorder.vue'
-    /* import other components here */
-    export default {
-        components: {
-            TornBorder
+import TornBorder from './TornBorder.vue';
+/* import other components here */
+export default {
+  components: {
+    TornBorder
+  },
+  data() {
+    return {
+      toggle_exclusive: null,
+      coffeeItems: [
+        {
+          name: 'Americano',
+          price: 2.55
         },
-        data() {
-            return {
-                toggle_exclusive : null,
-                coffeeItems : [
-                    {
-                        name : "Americano",
-                        price : 2.55,
-                    },
-                    {
-                        name : "Latte",
-                        price : 3.75,
-                    },
-                    {
-                        name : "Macchiato",
-                        price : 4.20,
-                    },
-                    {
-                        name : "Cafe Miel",
-                        price : 4.20,
-                    },
-                    {
-                        name : "Cappucino",
-                        price : 3.75,
-                    }
-                ],
-                noncoffeeItems : [
-                    {
-                        name : "Hot Chocolate",
-                        price : 2.55,
-                    },
-                    {
-                        name : "Italian Soda",
-                        price : 3.75,
-                    },
-                    {
-                        name : "Steamer",
-                        price : 4.20,
-                    },
-                    {
-                        name : "Chai Latte",
-                        price : 4.20,
-                    },
-                    {
-                        name : "Iced Tea",
-                        price : 3.75,
-                    }
-                ]
-            };
+        {
+          name: 'Latte',
+          price: 3.75
         },
-        methods: {},
-    }
-
+        {
+          name: 'Macchiato',
+          price: 4.2
+        },
+        {
+          name: 'Cafe Miel',
+          price: 4.2
+        },
+        {
+          name: 'Cappucino',
+          price: 3.75
+        }
+      ],
+      noncoffeeItems: [
+        {
+          name: 'Hot Chocolate',
+          price: 2.55
+        },
+        {
+          name: 'Italian Soda',
+          price: 3.75
+        },
+        {
+          name: 'Steamer',
+          price: 4.2
+        },
+        {
+          name: 'Chai Latte',
+          price: 4.2
+        },
+        {
+          name: 'Iced Tea',
+          price: 3.75
+        }
+      ]
+    };
+  },
+  methods: {}
+};
 </script>
 <style scoped>
 .sizes {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 </style>
