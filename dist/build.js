@@ -26724,6 +26724,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data() {
@@ -27060,25 +27061,25 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: {
-        IOdometer: __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_odometer_src_iOdometer___default.a,
-        TornBorder: __WEBPACK_IMPORTED_MODULE_0__TornBorder_vue___default.a
-    },
-    data() {
-        return {
-            donated: 0
-        };
-    },
-    methods: {},
-    created() {},
-    mounted() {
-        setInterval(() => {
-            this.donated += Math.round(Math.random() * 20 + 2);
-        }, 3000);
-        setTimeout(() => {
-            this.donated += 250;
-        });
-    }
+  components: {
+    IOdometer: __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_odometer_src_iOdometer___default.a,
+    TornBorder: __WEBPACK_IMPORTED_MODULE_0__TornBorder_vue___default.a
+  },
+  data() {
+    return {
+      donated: 0
+    };
+  },
+  methods: {},
+  created() {},
+  mounted() {
+    setInterval(() => {
+      this.donated += Math.round(Math.random() * 20 + 2);
+    }, 3000);
+    setTimeout(() => {
+      this.donated += 250;
+    });
+  }
 });
 
 /***/ }),
@@ -27486,7 +27487,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   },
   data() {
     return {
-      carouselPictures: ['static/DSC_0040.jpeg', 'static/DSC_0024.jpg', 'static/DSC_0041.jpg']
+      carouselPictures: ['static/DSC_0040.jpeg', 'static/DSC_0024.jpg.png', 'static/DSC_0041.jpg.png']
     };
   },
   methods: {}
@@ -28828,7 +28829,7 @@ module.exports = Component.exports
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('main', [_c('section', [_c('v-parallax', {
     attrs: {
-      "src": "public/cover.jpg",
+      "src": "public/cover.jpg.png",
       "height": "500"
     }
   }, [_c('v-layout', {
@@ -28899,7 +28900,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "elevation-0 transparent"
   }, [_c('v-card-media', {
     attrs: {
-      "src": "public/cover2.jpg",
+      "src": "public/cover2.jpg.png",
       "height": "300px"
     }
   }), _vm._v(" "), _c('v-card-title', {
@@ -28918,7 +28919,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "elevation-0 transparent"
   }, [_c('v-card-media', {
     attrs: {
-      "src": "public/DSC_0023.jpg",
+      "src": "public/DSC_0023.jpg.png",
       "height": "300px"
     }
   }), _vm._v(" "), _c('v-card-title', {
@@ -28937,7 +28938,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "elevation-0 transparent"
   }, [_c('v-card-media', {
     attrs: {
-      "src": "public/cover4.jpg",
+      "src": "public/cover4.jpg.png",
       "height": "300px"
     }
   }), _vm._v(" "), _c('v-card-title', {
@@ -28953,7 +28954,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }), _vm._v(" "), _c('section', [_c('v-parallax', {
     attrs: {
-      "src": "public/coffee.jpg",
+      "src": "public/coffee.jpg.png",
       "height": "800"
     }
   }, [_c('v-layout', {
@@ -29235,7 +29236,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "hidden-md-and-up",
     attrs: {
       "right": "",
-      "fixed": ""
+      "fixed": "",
+      "app": ""
     },
     model: {
       value: (_vm.drawer),
@@ -29377,7 +29379,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('main', [_c('section', [_c('v-parallax', {
     attrs: {
-      "src": "public/mission2.jpg",
+      "src": "public/mission2.jpg.png",
       "height": "700"
     }
   }, [_c('v-container', {
@@ -29518,7 +29520,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }), _vm._v(" "), _c('section', [_c('v-parallax', {
     attrs: {
-      "src": "public/cover4.jpg",
+      "src": "public/cover4.jpg.png",
       "height": "600"
     }
   }, [_c('v-layout', {
