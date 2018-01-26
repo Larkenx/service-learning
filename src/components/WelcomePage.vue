@@ -2,7 +2,7 @@
     <!-- Introduction section -->
     <main>
         <section>
-            <v-parallax src="public/cover.jpg.png" height="500">
+            <v-parallax src="public/cover.jpeg" height="500">
                 <v-layout column
                           align-center
                           justify-center
@@ -37,7 +37,7 @@
 
                             <v-flex xs12 md4>
                                 <v-card class="elevation-0 transparent">
-                                    <v-card-media src="public/cover2.jpg.png" height="300px">
+                                    <v-card-media src="public/cover2.jpeg" height="300px">
                                     </v-card-media>
                                     <v-card-title primary-title class="layout justify-center">
                                         <div class="headline text-xs-center">
@@ -52,7 +52,7 @@
 
                             <v-flex xs12 md4>
                                 <v-card class="elevation-0 transparent">
-                                    <v-card-media src="public/DSC_0023.jpg.png" height="300px">
+                                    <v-card-media src="public/DSC_0023.jpeg" height="300px">
                                     </v-card-media>
                                     <v-card-title primary-title class="layout justify-center">
                                         <div class="headline text-xs-center">
@@ -66,7 +66,7 @@
                             </v-flex>
                             <v-flex xs12 md4>
                                 <v-card class="elevation-0 transparent">
-                                    <v-card-media src="public/cover4.jpg.png" height="300px">
+                                    <v-card-media src="public/cover4.jpeg" height="300px">
                                     </v-card-media>
                                     <v-card-title primary-title class="layout justify-center">
                                         <div class="headline text-xs-center">
@@ -85,7 +85,7 @@
         </section>
         <torn-border location="bottom"></torn-border>
         <section>
-            <v-parallax src="public/coffee.jpg.png" height="800">
+            <v-parallax src="public/coffee.jpeg" height="800">
                 <v-layout column
                           align-center
                           justify-center
@@ -118,7 +118,7 @@ export default {
   },
   data() {
     return {
-      carouselPictures: ['static/DSC_0040.jpeg', 'static/DSC_0024.jpg.png', 'static/DSC_0041.jpg.png']
+      carouselPictures: ['static/DSC_0040.jpeg', 'static/DSC_0024.jpeg', 'static/DSC_0041.jpeg']
     };
   },
   methods: {}

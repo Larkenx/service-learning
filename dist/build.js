@@ -27487,7 +27487,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   },
   data() {
     return {
-      carouselPictures: ['static/DSC_0040.jpeg', 'static/DSC_0024.jpg.png', 'static/DSC_0041.jpg.png']
+      carouselPictures: ['static/DSC_0040.jpeg', 'static/DSC_0024.jpeg', 'static/DSC_0041.jpeg']
     };
   },
   methods: {}
@@ -28829,7 +28829,7 @@ module.exports = Component.exports
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('main', [_c('section', [_c('v-parallax', {
     attrs: {
-      "src": "public/cover.jpg.png",
+      "src": "public/cover.jpeg",
       "height": "500"
     }
   }, [_c('v-layout', {
@@ -28900,7 +28900,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "elevation-0 transparent"
   }, [_c('v-card-media', {
     attrs: {
-      "src": "public/cover2.jpg.png",
+      "src": "public/cover2.jpeg",
       "height": "300px"
     }
   }), _vm._v(" "), _c('v-card-title', {
@@ -28919,7 +28919,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "elevation-0 transparent"
   }, [_c('v-card-media', {
     attrs: {
-      "src": "public/DSC_0023.jpg.png",
+      "src": "public/DSC_0023.jpeg",
       "height": "300px"
     }
   }), _vm._v(" "), _c('v-card-title', {
@@ -28938,7 +28938,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "elevation-0 transparent"
   }, [_c('v-card-media', {
     attrs: {
-      "src": "public/cover4.jpg.png",
+      "src": "public/cover4.jpeg",
       "height": "300px"
     }
   }), _vm._v(" "), _c('v-card-title', {
@@ -28954,7 +28954,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }), _vm._v(" "), _c('section', [_c('v-parallax', {
     attrs: {
-      "src": "public/coffee.jpg.png",
+      "src": "public/coffee.jpeg",
       "height": "800"
     }
   }, [_c('v-layout', {
@@ -28994,7 +28994,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('main', [_c('section', [_c('v-parallax', {
     attrs: {
-      "src": "public/menu.png",
+      "src": "public/menu.jpeg",
       "height": "800"
     }
   }, [_c('v-layout', {
@@ -29379,7 +29379,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('main', [_c('section', [_c('v-parallax', {
     attrs: {
-      "src": "public/mission2.jpg.png",
+      "src": "public/mission2.jpeg",
       "height": "700"
     }
   }, [_c('v-container', {
@@ -29520,7 +29520,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }), _vm._v(" "), _c('section', [_c('v-parallax', {
     attrs: {
-      "src": "public/cover4.jpg.png",
+      "src": "public/cover4.jpeg",
       "height": "600"
     }
   }, [_c('v-layout', {

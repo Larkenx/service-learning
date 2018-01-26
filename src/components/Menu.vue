@@ -1,7 +1,7 @@
 <template>
     <main>
         <section>
-            <v-parallax src="public/menu.png" height="800">
+            <v-parallax src="public/menu.jpeg" height="800">
                     <v-layout column
                               align-center
                               justify-center

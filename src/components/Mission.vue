@@ -1,7 +1,7 @@
 <template>
     <main>
         <section>
-            <v-parallax src="public/mission2.jpg.png" height="700">
+            <v-parallax src="public/mission2.jpeg" height="700">
                 <v-container fluid class="white--text parallax-text text-xs-center">
                   <v-layout row class="text-xs-center">
                       <v-container>
@@ -105,7 +105,7 @@
         </section>
         <torn-border location="bottom"></torn-border>
         <section>
-            <v-parallax src="public/cover4.jpg.png" height="600">
+            <v-parallax src="public/cover4.jpeg" height="600">
                 <v-layout column
                           align-center
                           justify-center
